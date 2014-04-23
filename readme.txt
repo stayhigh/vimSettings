@@ -1,0 +1,2 @@
+vimrc.txt 拿來使用的設定檔案，更名成.vimrc放置於使用者家目錄中
+preq_install_for_vim.txt 需要先行安裝相關的套件，以利vimrc中的plugin可以良好正常的使用
