@@ -74,6 +74,9 @@ Bundle 'tell-k/vim-autopep8'
 Bundle 'scrooloose/syntastic'
 Bundle 'jcf/vim-latex'
 
+"navigator
+Bundle 'ctrlp.vim'
+
 " :: Others
 "Bundle 'guns/xterm-color-table.vim'
 
@@ -129,10 +132,10 @@ else
   "colorscheme aknow
 
   " Arror key
-  nmap A k
-  nmap B j
-  nmap C l
-  nmap D h
+  nmap OA k
+  nmap OB j
+  nmap OC l
+  nmap OD h
 endif
 
 set nocompatible	" not compatible with the old-fashion vi mode
@@ -438,6 +441,13 @@ let g:ycm_key_list_previous_completion=['<S-TAB>']
 let g:UltiSnipsExpandTrigger="<c-j>"
 "let g:UltiSnipsListSnippets="<c-s-tab>"
 let g:UltiSnipsSnippetsDir="~/.vim/bundle/ultisnips/UltiSnips"
+" Snippets variables (without the following variables then output error)
+let g:snips_author='stayhigh'
+let g:author='stayhigh'
+let g:snips_email='redhero0702@gmail.com'
+let g:email='redhero0702@gmail.com'
+let g:snips_github='https://github.com/stayhigh'
+let g:github='https://github.com/stayhigh'
 
 
 " --- gist-vim
@@ -453,6 +463,9 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_python_checkers=['pyflakes', 'pylint']
 let g:syntastic_always_populate_loc_list = 1
 nnoremap <silent> <F4> :lwindow<CR>
+
+" --- ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 
 " --- tslime
