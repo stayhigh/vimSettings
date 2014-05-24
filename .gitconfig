@@ -1,0 +1,14 @@
+[user]
+	name = stayhigh
+	email = stayhigh@github.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+[merge]
+	tool = vimdiff
+[core]
+	editor = vim
+[remote "origin"]
+	url = git@github.com:stayhigh/vimSettings.git
