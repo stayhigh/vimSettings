@@ -10,5 +10,8 @@
 	tool = vimdiff
 [core]
 	editor = vim
-[remote "origin"]
-	url = git@github.com:stayhigh/vimSettings.git
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
