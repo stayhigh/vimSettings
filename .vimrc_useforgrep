@@ -1,0 +1,14 @@
+set nu
+syntax on
+set cursorline
+set hls
+
+let Grep_Path='/usr/bin/grep'
+let Grep_Find_Path='/usr/bin/find'
+let Grep_Xargs_Path='/usr/bin/xargs'
+let Grep_Skip_Dirs='CVS'
+let Grep_Default_Options='-ir'
+let Grep_Cygwin_Find=0
+let Grep_Null_Device='NUL'
+let Grep_Shell_Quote_Char="" 
+
