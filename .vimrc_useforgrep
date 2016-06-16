@@ -2,6 +2,7 @@ set nu
 syntax on
 set cursorline
 set hls
+set incsearch
 
 let Grep_Path='/usr/bin/grep'
 let Grep_Find_Path='/usr/bin/find'
